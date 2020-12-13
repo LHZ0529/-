@@ -1,0 +1,41 @@
+.back{
+  position: absolute;
+  width: 100%;
+  height:100%;
+}
+.container
+{
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.input{
+  height:100rpx;
+  width:90%;
+}
+.input1{
+  height:300rpx;
+  width:90%;
+}
+.biaozhi{
+  height:100rpx;
+  color:white;
+  background-color:rgb(35, 71, 35);
+  font-weight:bold;
+  }
+.upload{
+ width:80%;
+color:white;
+background-color:red;
+font-weight:bold;
+justify-content: center;
+}
+.yanse{
+  font-size: 60rpx;
+  color:rgb(0, 102, 255);
+  font-weight: bold;
+  justify-content:center;
+  border:2px solid black;
+}

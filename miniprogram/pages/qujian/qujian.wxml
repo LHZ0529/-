@@ -1,0 +1,7 @@
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607840848208&di=0961dad69529d8fd759ee1db4544d810&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farchive%2F427967cb7520624b266d78b3b55063c944d553ba.jpg" bindload="autoImage" style="width:{{imageWidth}};height:{{ imageHeight }}" />
+<view>
+  <image class="back" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607869666880&di=20b1ada82d1b4342bce0f36cf3b35285&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_origin_min_pic%2F18%2F07%2F24%2F01fd86b7bdbe2698c8069bf5d646ff50.jpg%2521%2Ffwfh%2F804x488%2Fquality%2F90%2Funsharp%2Ftrue%2Fcompress%2Ftrue" bindload="autoImage" style="width:{{imageWidth}};height:{{ imageHeight }}" />
+<button class="bind" bindtap="tapone">快递</button>
+<button class="bind" bindtap="taptwo">外卖</button>
+<button class="bind" bindtap="tapthree">代买</button>
+</view>

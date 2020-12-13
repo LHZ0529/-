@@ -1,0 +1,17 @@
+<!--miniprogram/pages/chaxun/chaxun.wxml-->
+
+<input placeholder="请输入名字" bindinput="shuru"></input>
+<button bindtap="getdata">获取信息</button>
+<view wx:for="{{datalist}}">
+  <view class="itemRoot">
+<view>酬金：{{item.money}}</view>
+<view>姓名：{{item.name}}</view>
+<view>电话：{{item.tel}}</view>
+<view>学号：{{item.id}}</view>
+<view>其他信息：{{item.other}}</view>
+<view>是否可以接受任务：{{item.zhuangtai}}</view>
+<view>_id：{{item._id}}</view>
+<input placeholder="请输入_id确认删除" bindinput="shanchu"></input>
+<button bindtap="delete">删除任务</button>
+  </view>
+</view>

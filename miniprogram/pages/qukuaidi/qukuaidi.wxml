@@ -1,0 +1,15 @@
+<button bindtap="getdata">获取信息</button>
+<view class="wenzi">最新的任务在最下面</view>
+<view wx:for="{{datalist}}">
+  <view class="itemRoot">
+<view>酬金：{{item.money}}</view>
+<view>姓名：{{item.name}}</view>
+<view>电话：{{item.tel}}</view>
+<view>学号：{{item.id}}</view>
+<view>其他信息：{{item.other}}</view>
+<view>是否可以接受任务：{{item.zhuangtai}}</view>
+<view>_id：{{item._id}}</view>
+<input placeholder="请输入_id确认接受" bindinput="jieshou"></input>
+<button bindtap="get">接受任务</button>
+  </view>
+</view>

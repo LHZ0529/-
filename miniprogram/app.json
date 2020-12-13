@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/fabu/fabu",
+    "pages/qujian/qujian",
+    "pages/wode/wode",
+    "pages/kuaidi/kuaidi",
+    "pages/waimai/waimai",
+    "pages/qukuaidi/qukuaidi",
+    "pages/quwaimai/quwaimai",
+    "pages/chenggong/chenggong",
+    "chaxun/chaxun",
+    "pages/chaxun/chaxun"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "咻咻取物",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8c8c8c",
+    "selectedColor": "#f4645f",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/fabu/fabu",
+        "iconPath": "images/导航/fbcs.png",
+        "selectedIconPath": "images/导航/fbxz.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/qujian/qujian",
+        "iconPath": "images/导航/pbcs.png",
+        "selectedIconPath": "images/导航/pbxz.png",
+        "text": "取件"
+      },
+      {
+        "pagePath": "pages/wode/wode",
+        "iconPath": "images/导航/grzxcs.png",
+        "selectedIconPath": "images/导航/grzxxz.png",
+        "text": "个人中心"
+      }
+    ],
+    "position": "bottom"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

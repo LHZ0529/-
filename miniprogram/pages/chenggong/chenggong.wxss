@@ -1,0 +1,7 @@
+.wenzi{
+  color:red;
+  margin-left:80px;
+  font-size:40px;
+  font-weight:bold;
+  
+}

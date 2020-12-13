@@ -1,0 +1,11 @@
+<view class="container">
+<image src='{{src}}'></image>
+<text >{{word}}</text>
+<button open-type="getUserInfo" bindgetuserinfo="getMyInfo">点击授权登录</button>
+</view>
+<view wx:if="{{count>=2}}">
+<button bindtap="switch" class="style">查看我的任务</button>
+</view>
+<view>
+<image class="back" src=https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1056791813,1856714395&fm=26&gp=0.jpg" bindload="autoImage" style="width:{{imageWidth}};height:{{ imageHeight }}" />
+</view>
