@@ -1,0 +1,9 @@
+/* miniprogram/pages/qukuaidi/qukuaidi.wxss */
+.itemRoot{
+  background:gainsboro ;
+  border:solid 1px red;
+}
+.wenzi{
+  text-align :center;
+  border: 1px  solid  black
+}

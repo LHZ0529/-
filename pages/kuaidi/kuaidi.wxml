@@ -1,0 +1,15 @@
+<view class="container">
+<image class="back" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607842333695&di=cfa52bc8efcbeb51835000856629c1e7&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic3%2Fcover%2F01%2F64%2F52%2F595656854bea4_610.jpg" ></image>
+
+  <navigator url="/miniprogram/pages/fabu" class="yanse">赏金</navigator>
+<input class="input" placeholder="请输入金额(必填)" type="number" bindinput="money" focus="true"></input>
+<navigator url="/miniprogram/pages/fabu" class="yanse">姓名</navigator>
+<input class="input" placeholder="请输入姓名（必填）" type="text" bindinput="name"></input>
+<navigator url="/miniprogram/pages/fabu" class="yanse">QQ号</navigator>
+<input class="input" placeholder="请输入QQ号（必填）" type="number" bindinput="id"></input>
+<navigator url="/miniprogram/pages/fabu" class="yanse">手机号</navigator>
+<input class="input" placeholder="请输入手机号（必填）" type="number" bindinput="tel"></input>
+<navigator url="/miniprogram/pages/fabu" class="yanse">详细信息</navigator>
+<input class="input1" placeholder="请输入具体信息（具体地点，时间等）" type="text" bindinput="other"></input>
+<button class="upload" bindtap="upload">提交</button>
+</view>

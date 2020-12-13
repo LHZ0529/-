@@ -1,0 +1,9 @@
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607840848208&di=0961dad69529d8fd759ee1db4544d810&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farchive%2F427967cb7520624b266d78b3b55063c944d553ba.jpg" bindload="autoImage" style="width:{{imageWidth}};height:{{ imageHeight }}" />
+
+<view>
+  <image class="back" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607837937208&di=0ae3f6c8a8afb13fef8876142a4b1308&imgtype=0&src=http%3A%2F%2Fimg.08087.cc%2Fuploads%2F20190113%2F15%2F1547364873-rSvHwhEDzc.jpg" bindload="autoImage" style="width:{{imageWidth}};height:{{ imageHeight }}" />
+
+<button class="bind" bindtap="tapone">发布取件任务</button>
+<button class="bind" bindtap="taptwo">发布外卖任务</button>
+<button class="bind" bindtap="tapthree">发布代买任务</button>
+</view>

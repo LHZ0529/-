@@ -1,0 +1,4 @@
+<view>
+  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607841445457&di=d71f6f5d1339757ced9c3c0457b4340d&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_origin_min_pic%2F18%2F03%2F28%2F4dae0bc2996605985b4ab597ab426bbd.jpg%2521%2Ffwfh%2F804x804%2Fquality%2F90%2Funsharp%2Ftrue%2Fcompress%2Ftrue" bindload="autoImage" style="width:{{imageWidth}};height:{{ imageHeight }}"></image>
+  <text class="wenzi">发布成功</text>
+</view>

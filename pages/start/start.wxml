@@ -1,0 +1,21 @@
+<view class="container" style="flex-direction:column">
+<view class="remind-box" wx:if="{{remind}}">
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607839121320&di=cb0a52a67b3f610ab22d425cdb556b11&imgtype=0&src=http%3A%2F%2Fapi.cocoachina.com%2Fuploads%2F20150520%2F1432090317318150.gif" bindload="autoImage" style="width:{{imageWidth}};height:{{ imageHeight }}"></image>
+<view class="juli">请稍等哦，亲~</view>
+</view>
+
+<block wx:else>
+<!--<image class="title" src="https://img.cc0.cn/pixabay/2019110115242983354.jpg!cc0.cn.jpg"></image>-->
+<view class="content">
+<view class="hd" style="transform:rotateZ({{angle}}deg);">
+<image class="logo" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1759878260,1921254218&fm=26&gp=0.jpg"></image>
+</view>
+<view class="bd">
+<!--<image class="smalltitle" src="https://img.cc0.cn/pixabay/201910200252314162.jpg!cc0.cn.jpg"></image>-->
+<view class="confirm-btn" bindtap='goToIndex'>
+<text>Let's start!</text>
+</view>
+</view>
+</view>
+</block>
+</view>
